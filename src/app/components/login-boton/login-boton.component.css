@@ -1,0 +1,9 @@
+.login{
+    width:100%;    
+    border-radius:5px;
+    font-size:15px;
+    font-weight:bold;
+    color:white;
+    color:rgb(12, 165, 236);
+    cursor:pointer;    
+}

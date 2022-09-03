@@ -1,0 +1,14 @@
+.logo{
+    display:flex; 
+}
+
+.logo img{
+    width: 90px;
+    height: 50px;       
+}
+
+.logo h5{
+    font-weight: bold;
+    color: white;
+    padding-top: 12px;
+}

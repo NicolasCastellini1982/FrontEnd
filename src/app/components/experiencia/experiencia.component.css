@@ -1,0 +1,50 @@
+#agregar {
+    font-size: 30px;
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+
+}
+
+.editar {
+           
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+
+}
+
+.borrar {
+    
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+}
+
+
+.row h2, h4{
+    font-weight: bold;     
+    display: inline;
+
+}
+
+.row{
+    padding: 20px;
+}
+
+
+table{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+
+.empresa{
+    width: 335px;
+    padding: 20px;
+}
+
+.descripcion {
+    width: 540px;
+}
+

@@ -1,0 +1,34 @@
+<div class="estudios" id="estudios"> 
+    
+    <div class="container">
+      <div class="row">
+            <div class="col-2"></div>                                          
+            <div class="col-8 text-center"><h2>Experiencia Laboral</h2></div>
+            <div class="col-2"><br>
+            <button type="agregar" id="agregar"   class="bi bi-plus-lg" routerLink="/nuevaexp" *ngIf="isLogged">                
+           </button></div>
+       </div>
+    </div>
+</div>
+
+
+      
+         <table>
+            <tbody >
+                <tr *ngFor="let Experiencia of expe">
+                    <td class="empresa">
+                        <h4>{{Experiencia.nombreE}}</h4>
+                    </td>                   
+                    <td class="descripcion"><p>{{Experiencia.descripcionE}}</p></td>
+                    <td *ngIf="isLogged">
+                        <button class="editar"  routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i></button>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="borrar" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i></button>                           
+                    </td>                    
+                </tr>                
+            </tbody>
+        </table>  
+   

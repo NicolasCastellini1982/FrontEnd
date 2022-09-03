@@ -1,0 +1,48 @@
+
+#agregar {
+    font-size: 30px;
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+
+}
+
+.editar {
+    width: 10%;       
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+
+}
+
+.borrar {
+    width: 10%;
+    color:rgb(12, 165, 236);
+    background: none;
+    border: none;
+
+}
+
+
+.row h2, h4{
+    font-weight: bold;     
+    display: inline;
+
+}
+
+.institucion{
+    width: 340px;
+    padding: 20px;
+}
+
+.descripcion {
+    width: 540px;
+}
+
+table{
+    width: 50%;
+    margin: auto;   
+    margin-bottom: 20px; 
+}
+
+

@@ -1,0 +1,164 @@
+.presentacion{
+    width: 100%;    
+    display: flex;    
+    justify-content: center;
+    height: calc(100vh - 65px); 
+    background-color: rgb(12, 165, 236);
+    color: white;     
+}
+
+.presentacion .caja-central{
+    margin-top: 10%;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;          
+}
+
+.presentacion .caja-central .caja-cara{
+    align-items: center;
+    width: 40%;
+    background-color: #6578e9;
+    ;    
+}
+
+.presentacion .caja-central .caja-cara .cara{
+    border-radius: 500px;   
+    height: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.presentacion .caja-central .caja-cara h5{
+   text-align: center;   
+   color: black;
+   font-weight: bold;
+}
+
+.presentacion .caja-central .caja-cara h6{
+    text-align: center;   
+    color: black;
+ }
+
+.presentacion .caja-central .caja-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    color: #303030;   
+}
+
+.presentacion .caja-central .caja-presentacion .hola{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.presentacion .caja-central .caja-presentacion h2{
+    margin-top: 10px;
+    margin-left: 10px; 
+    font-weight: bold;       
+}
+
+.presentacion .caja-central .caja-presentacion .nota-presentacion{
+    padding: 10px;
+}
+
+.presentacion .caja-central .caja-presentacion .dibujo{
+    max-width: 40%;  
+             
+}
+
+#boton{
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+#texto{
+    width: 90%;
+    margin-left: 10px;
+}
+
+
+@media (max-height: 856px){
+
+    .presentacion{
+        height: auto;
+        padding: 0 5px 5px 5px;
+    } 
+        
+    .presentacion .caja-central .caja-presentacion{
+        width: 100%;
+        height:100%;
+        align-items: flex-start; 
+        margin-bottom:0px;   
+    }     
+
+}
+
+@media (max-width: 1200px) {
+
+    .presentacion{
+        height: auto;
+        padding: 0 5px 5px 5px;
+    }  
+
+    .presentacion .caja-central{
+        width: 50%;
+        height: 50%;
+        flex-direction: column;
+        }
+      
+    .presentacion .caja-central .caja-cara{
+        width: 100%;
+        height: 50%; 
+    }
+    .presentacion .caja-central .caja-presentacion{
+        width: 100%;
+        height:100%;
+        align-items: flex-start; 
+        margin-bottom:15px;      
+    } 
+
+}
+
+@media (max-width: 576px) {
+
+    .presentacion{
+        font-size: 80%;
+    }
+    
+    .presentacion .caja-central{
+        width: 25%;
+        height: 25%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .presentacion .caja-central .caja-cara{
+        width: 300px;
+        height: 100%;        
+        margin-top:20px; 
+        
+    }
+
+    .presentacion .caja-central .caja-presentacion{
+        width: 300px;
+        height:100%;        
+        margin-bottom:15px; 
+        
+    }
+    
+    .presentacion .caja-central .caja-cara .cara{
+        width: 50%;
+        height: 50%;  
+    }
+
+} 

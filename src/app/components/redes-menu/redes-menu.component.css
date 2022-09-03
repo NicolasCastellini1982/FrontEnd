@@ -1,0 +1,20 @@
+nav a{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.item{
+    height:30px;     
+}
+
+app-login{
+    height: 30px;
+    margin: 10px;  
+}
+
+.redes-Menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;   
+    align-items: center;
+}
